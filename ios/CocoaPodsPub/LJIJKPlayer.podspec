@@ -79,7 +79,8 @@ Pod::Spec.new do |spec|
   #
   
   # spec.source = { :http => "https://github.com/befovy/ijkplayer/releases/download/f0.7.16/IJKMediaPlayer.tar.gz" }
-    spec.source = { :http => "https://github.com/WellsYoo/ijkplayer/tree/0.7.16/ios/CocoaPodsPub" }
+    # spec.source = { :http => "https://github.com/WellsYoo/ijkplayer/tree/0.7.16/ios/CocoaPodsPub" }
+    s.source = { :git => "git@github.com:WellsYoo/ijkplayer.git", :tag => "#{s.version}" }
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
@@ -88,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.vendored_frameworks = 'IJKMediaPlayer.framework'
+  spec.vendored_frameworks = 'ios/CocoaPodsPub/IJKMediaPlayer.framework'
   #spec.public_header_files = "IJKPlayer.framework/Headers/*.h"
 
 
