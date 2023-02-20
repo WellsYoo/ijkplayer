@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LJIJKPlayer"
-  spec.version      = "0.7.16"
+  spec.version      = "0.7.17"
   spec.summary      = "ijkplayer iOS video player SDK"
 
   spec.author       = { "wells" => "wells@gmail.com" }
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.vendored_frameworks = 'ios/CocoaPodsPub/IJKMediaPlayer.framework'
+  spec.vendored_frameworks = 'ios/CocoaPodsPub/IJKMediaFramework.framework'
   #spec.public_header_files = "IJKPlayer.framework/Headers/*.h"
 
 
