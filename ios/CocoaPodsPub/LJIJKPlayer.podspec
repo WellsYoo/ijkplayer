@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   
   # spec.source = { :http => "https://github.com/befovy/ijkplayer/releases/download/f0.7.16/IJKMediaPlayer.tar.gz" }
     # spec.source = { :http => "https://github.com/WellsYoo/ijkplayer/tree/0.7.16/ios/CocoaPodsPub" }
-    s.source = { :git => "git@github.com:WellsYoo/ijkplayer.git", :tag => "#{s.version}" }
+    spec.source = { :git => "git@github.com:WellsYoo/ijkplayer.git", :tag => "#{spec.version}" }
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
